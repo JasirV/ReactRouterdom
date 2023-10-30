@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button,Form } from 'react-bootstrap'
+import {Form } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 const Login = () => {
   return (
@@ -8,7 +8,7 @@ const Login = () => {
       <h1 className='mt-5'>Sign in</h1>
       <input type="text" className='container mt-5 rounded' style={{height:"3rem"}} placeholder='User Name'/>
         <input type="password" className='container mt-4 rounded' style={{height:"3rem"}} placeholder='Password'/>
-      <Link to="/home"><button type="button" className="btn btn-primary mt-4 rounded">Submit</button></Link>  
+      <Link to="/home"><button type="button" className="btn btn-primary mt-4 rounded">Login</button></Link>  
         </Form>
     </div>
   )
